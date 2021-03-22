@@ -7,8 +7,8 @@ const BulletinBoard = () => {
       id: 1,
       question: "Vad är tre fördelar med att använda React?",
       answer: [
-        "Snabbt",
-        "Flexibilitet, html i javascript(jsx)",
+        "Snabbt, genom att använda sig av VIRTUAL DOM ",
+        "Flexibilitet, JSX gör det enkelt att skriva egna komponeter",
         "Fokus på gränssnittet",
       ],
     },
@@ -33,7 +33,11 @@ const BulletinBoard = () => {
     {
       id: 4,
       question: "Vad är tre bibliotek man kan använda med React?",
-      answer: ["Framer Motion", "React-Bootstrap", "Material-UI"],
+      answer: [
+        "Framer Motion, som är ett animations biblotek",
+        "Firebase, som hjälper till med backend.",
+        "Tailwind, design biblotek med färdiga komponeter",
+      ],
     },
   ];
 
